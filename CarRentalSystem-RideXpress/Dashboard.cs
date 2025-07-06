@@ -28,7 +28,7 @@ namespace CarRentalSystem_RideXpress
         private void Dashboard_Load(object sender, EventArgs e)
         {
             LoadDashboardStats();
-            
+           
         }
 
         public void LoadDashboardStats()
@@ -62,6 +62,8 @@ namespace CarRentalSystem_RideXpress
                 // Today's Returns
                 SqlCommand cmdTodayReturns = new SqlCommand("SELECT COUNT(*) FROM returns WHERE return_date = CAST(GETDATE() AS DATE)", connect);
                 //lblTodayReturns.Text = cmdTodayReturns.ExecuteScalar().ToString();
+
+                
             }
             catch (Exception ex)
             {

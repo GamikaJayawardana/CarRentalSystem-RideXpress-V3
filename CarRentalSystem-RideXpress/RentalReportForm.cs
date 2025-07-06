@@ -10,11 +10,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using Microsoft.Reporting.WinForms;
+using Microsoft.Reporting.WinForms.Internal.Soap.ReportingServices2005.Execution;
 
 namespace CarRentalSystem_RideXpress
 {
     public partial class RentalReportForm : UserControl
     {
+        private ReportViewer reportViewer;
         public RentalReportForm()
         {
             InitializeComponent();
@@ -68,12 +70,23 @@ namespace CarRentalSystem_RideXpress
         }
         private void RentalReportForm_Load(object sender, EventArgs e)
         {
-            var reportViewer = new ReportViewer
+            if (!this.Controls.Contains(reportViewer))
             {
-                Dock = DockStyle.Fill,
-                ProcessingMode = ProcessingMode.Local
-            };
-            this.Controls.Add(reportViewer);
+                LoadReportData();
+            }
+        }
+
+        public void LoadReportData()
+        {
+            if (reportViewer == null)
+            {
+                reportViewer = new ReportViewer
+                {
+                    Dock = DockStyle.Fill,
+                    ProcessingMode = ProcessingMode.Local
+                };
+                this.Controls.Add(reportViewer);
+            }
 
             reportViewer.LocalReport.ReportPath = "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress-V3\\CarRentalSystem-RideXpress\\RentalReport.rdlc";
             reportViewer.LocalReport.DataSources.Clear();
@@ -85,6 +98,8 @@ namespace CarRentalSystem_RideXpress
             reportViewer.RefreshReport();
         }
     }
+
+    
 
     public class CustomerRentalsData
     {

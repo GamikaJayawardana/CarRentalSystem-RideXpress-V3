@@ -41,7 +41,6 @@
             lblRentedCars = new Label();
             Re = new Label();
             sqlCommand1 = new Microsoft.Data.SqlClient.SqlCommand();
-            rentalReportForm1 = new RentalReportForm();
             panel1.SuspendLayout();
             panel5.SuspendLayout();
             panel2.SuspendLayout();
@@ -187,19 +186,11 @@
             sqlCommand1.Notification = null;
             sqlCommand1.Transaction = null;
             // 
-            // rentalReportForm1
-            // 
-            rentalReportForm1.Location = new Point(20, 135);
-            rentalReportForm1.Name = "rentalReportForm1";
-            rentalReportForm1.Size = new Size(839, 409);
-            rentalReportForm1.TabIndex = 8;
-            // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLight;
-            Controls.Add(rentalReportForm1);
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel5);
@@ -235,6 +226,5 @@
         private Label lblRentedCars;
         private Label Re;
         private Microsoft.Data.SqlClient.SqlCommand sqlCommand1;
-        private RentalReportForm rentalReportForm1;
     }
 }

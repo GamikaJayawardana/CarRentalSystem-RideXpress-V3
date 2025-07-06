@@ -45,6 +45,7 @@
             cars1 = new Cars();
             issueCar1 = new IssueCar();
             carReturn1 = new CarReturn();
+            rentalReportForm1 = new RentalReportForm();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -244,6 +245,7 @@
             // panel4
             // 
             panel4.BackColor = Color.FromArgb(224, 224, 224);
+            panel4.Controls.Add(rentalReportForm1);
             panel4.Controls.Add(dashboard1);
             panel4.Controls.Add(customers1);
             panel4.Controls.Add(cars1);
@@ -292,6 +294,13 @@
             carReturn1.Size = new Size(880, 575);
             carReturn1.TabIndex = 0;
             // 
+            // rentalReportForm1
+            // 
+            rentalReportForm1.Location = new Point(23, 131);
+            rentalReportForm1.Name = "rentalReportForm1";
+            rentalReportForm1.Size = new Size(839, 409);
+            rentalReportForm1.TabIndex = 5;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -333,5 +342,6 @@
         private CarReturn carReturn1;
         private Customers customers1;
         private Dashboard dashboard1;
+        public RentalReportForm rentalReportForm1;
     }
 }

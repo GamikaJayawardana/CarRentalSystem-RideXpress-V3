@@ -105,7 +105,9 @@ namespace CarRentalSystem_RideXpress
                 MessageBox.Show("Rental added successfully.");
                 AppEvents.RaiseCarListUpdated();
 
-                
+                MainForm.Instance.rentalReportForm1.LoadReportData();
+
+
             }
             catch (Exception ex)
             {
@@ -135,6 +137,7 @@ namespace CarRentalSystem_RideXpress
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Rental updated successfully.");
                 AppEvents.RaiseCarListUpdated();
+                MainForm.Instance.rentalReportForm1.LoadReportData();
             }
             catch (Exception ex)
             {
@@ -160,6 +163,8 @@ namespace CarRentalSystem_RideXpress
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Rental deleted successfully.");
                     AppEvents.RaiseCarListUpdated();
+
+                    MainForm.Instance.rentalReportForm1.LoadReportData();
                 }
                 catch (Exception ex)
                 {

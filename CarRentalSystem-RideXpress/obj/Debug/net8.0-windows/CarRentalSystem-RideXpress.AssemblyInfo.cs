@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarRentalSystem-RideXpress")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e75d225cf864a188a53ef06d4f1811f2dadc9af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7dfb97c2db0f2a41b1fad35ae0d2543b13174b5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarRentalSystem-RideXpress")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarRentalSystem-RideXpress")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

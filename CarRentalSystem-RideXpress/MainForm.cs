@@ -12,15 +12,22 @@ namespace CarRentalSystem_RideXpress
 {
     public partial class MainForm : Form
     {
+
+        public static MainForm Instance;
         public MainForm()
         {
             InitializeComponent();
+            Instance = this;
+            
+            
 
             cars1.Visible = false;
             issueCar1.Visible = false;
             carReturn1.Visible = false;
             customers1.Visible = true;
             dashboard1.Visible = true;
+            rentalReportForm1.Visible = true;
+
 
         }
 
@@ -29,10 +36,13 @@ namespace CarRentalSystem_RideXpress
             cars1.Visible = false;
             issueCar1.Visible = false;
             carReturn1.Visible = false;
-            customers1.Visible = true;
+            customers1.Visible = false;
             dashboard1.Visible = true;
+            rentalReportForm1.Visible = true;
 
             dashboard1.LoadDashboardStats();
+
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -70,6 +80,7 @@ namespace CarRentalSystem_RideXpress
             issueCar1.Visible = false;
             carReturn1.Visible = false;
             customers1.Visible = false;
+            rentalReportForm1.Visible = false;
 
         }
 
@@ -80,6 +91,7 @@ namespace CarRentalSystem_RideXpress
             carReturn1.Visible = false;
             customers1.Visible = false;
             dashboard1.Visible = false;
+            rentalReportForm1.Visible = false;
         }
 
         private void btnReturnCar_Click(object sender, EventArgs e)
@@ -89,6 +101,7 @@ namespace CarRentalSystem_RideXpress
             carReturn1.Visible = true;
             customers1.Visible = false;
             dashboard1.Visible = false;
+            rentalReportForm1.Visible = false;
         }
 
         private void customers1_Load(object sender, EventArgs e)
@@ -103,6 +116,7 @@ namespace CarRentalSystem_RideXpress
             carReturn1.Visible = false;
             customers1.Visible = true;
             dashboard1.Visible = false;
+            rentalReportForm1.Visible = false;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
