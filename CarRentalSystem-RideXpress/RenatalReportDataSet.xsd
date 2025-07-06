@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RenatalReportDataSet" targetNamespace="http://tempuri.org/RenatalReportDataSet.xsd" xmlns:mstns="http://tempuri.org/RenatalReportDataSet.xsd" xmlns="http://tempuri.org/RenatalReportDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RenatalReportDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="RenatalReportDataSet" msprop:Generator_DataSetName="RenatalReportDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CustomerRentalsData" msprop:Generator_RowEvHandlerName="CustomerRentalsDataRowChangeEventHandler" msprop:Generator_RowDeletedName="CustomerRentalsDataRowDeleted" msprop:Generator_RowDeletingName="CustomerRentalsDataRowDeleting" msprop:Generator_RowEvArgName="CustomerRentalsDataRowChangeEvent" msprop:Generator_TablePropName="CustomerRentalsData" msprop:Generator_RowChangedName="CustomerRentalsDataRowChanged" msprop:Generator_RowChangingName="CustomerRentalsDataRowChanging" msprop:Generator_TableClassName="CustomerRentalsDataDataTable" msprop:Generator_RowClassName="CustomerRentalsDataRow" msprop:Generator_TableVarName="tableCustomerRentalsData" msprop:Generator_UserTableName="CustomerRentalsData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customer_id" msprop:Generator_ColumnPropNameInRow="customer_id" msprop:Generator_ColumnPropNameInTable="customer_idColumn" msprop:Generator_ColumnVarNameInTable="columncustomer_id" msprop:Generator_UserColumnName="customer_id" type="xs:string" minOccurs="0" />
+              <xs:element name="rental_count" msprop:Generator_ColumnPropNameInRow="rental_count" msprop:Generator_ColumnPropNameInTable="rental_countColumn" msprop:Generator_ColumnVarNameInTable="columnrental_count" msprop:Generator_UserColumnName="rental_count" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RentedCarsData" msprop:Generator_RowEvHandlerName="RentedCarsDataRowChangeEventHandler" msprop:Generator_RowDeletedName="RentedCarsDataRowDeleted" msprop:Generator_RowDeletingName="RentedCarsDataRowDeleting" msprop:Generator_RowEvArgName="RentedCarsDataRowChangeEvent" msprop:Generator_TablePropName="RentedCarsData" msprop:Generator_RowChangedName="RentedCarsDataRowChanged" msprop:Generator_RowChangingName="RentedCarsDataRowChanging" msprop:Generator_TableClassName="RentedCarsDataDataTable" msprop:Generator_RowClassName="RentedCarsDataRow" msprop:Generator_TableVarName="tableRentedCarsData" msprop:Generator_UserTableName="RentedCarsData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="regNo" msprop:Generator_ColumnPropNameInRow="regNo" msprop:Generator_ColumnPropNameInTable="regNoColumn" msprop:Generator_ColumnVarNameInTable="columnregNo" msprop:Generator_UserColumnName="regNo" type="xs:string" minOccurs="0" />
+              <xs:element name="rental_count" msprop:Generator_ColumnPropNameInRow="rental_count" msprop:Generator_ColumnPropNameInTable="rental_countColumn" msprop:Generator_ColumnVarNameInTable="columnrental_count" msprop:Generator_UserColumnName="rental_count" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

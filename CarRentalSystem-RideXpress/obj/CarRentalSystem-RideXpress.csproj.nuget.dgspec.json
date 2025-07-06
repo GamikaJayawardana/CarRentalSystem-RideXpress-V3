@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress-V3\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj": {}
+  },
+  "projects": {
+    "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress-V3\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress-V3\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj",
+        "projectName": "CarRentalSystem-RideXpress",
+        "projectPath": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress-V3\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj",
+        "packagesPath": "C:\\Users\\gamik\\.nuget\\packages\\",
+        "outputPath": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress-V3\\CarRentalSystem-RideXpress\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gamik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "HIC.System.Windows.Forms.DataVisualization": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Microsoft.ReportViewer.Runtime.WinForms": {
+              "target": "Package",
+              "version": "[12.0.2402.15, )"
+            },
+            "ReportViewerCore.WinForms": {
+              "target": "Package",
+              "version": "[15.1.26, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
