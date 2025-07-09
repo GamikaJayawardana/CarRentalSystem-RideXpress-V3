@@ -16,7 +16,7 @@ namespace CarRentalSystem_RideXpress
     public partial class Dashboard : UserControl
     {
 
-       
+
 
         SqlConnection connect = new SqlConnection(DBConnection.ConnectionString);
 
@@ -28,7 +28,7 @@ namespace CarRentalSystem_RideXpress
         private void Dashboard_Load(object sender, EventArgs e)
         {
             LoadDashboardStats();
-           
+
         }
 
         public void LoadDashboardStats()
@@ -63,7 +63,7 @@ namespace CarRentalSystem_RideXpress
                 SqlCommand cmdTodayReturns = new SqlCommand("SELECT COUNT(*) FROM returns WHERE return_date = CAST(GETDATE() AS DATE)", connect);
                 //lblTodayReturns.Text = cmdTodayReturns.ExecuteScalar().ToString();
 
-                
+
             }
             catch (Exception ex)
             {
@@ -73,6 +73,11 @@ namespace CarRentalSystem_RideXpress
             {
                 connect.Close();
             }
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

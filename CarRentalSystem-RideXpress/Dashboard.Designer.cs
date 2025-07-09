@@ -155,6 +155,7 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(200, 100);
             panel3.TabIndex = 6;
+            panel3.Paint += panel3_Paint;
             // 
             // lblRentedCars
             // 

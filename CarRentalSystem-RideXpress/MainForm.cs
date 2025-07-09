@@ -24,7 +24,7 @@ namespace CarRentalSystem_RideXpress
             cars1.Visible = false;
             issueCar1.Visible = false;
             carReturn1.Visible = false;
-            customers1.Visible = true;
+            customers1.Visible = false;
             dashboard1.Visible = true;
             rentalReportForm1.Visible = true;
 

@@ -14,7 +14,7 @@ namespace CarRentalSystem_RideXpress
         // Method to raise the event
         public static void RaiseCarListUpdated()
         {
-            CarListUpdated?.Invoke(); // Invoke the event if there are subscribers
+            CarListUpdated?.Invoke(); 
         }
     }
 }
