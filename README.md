@@ -27,10 +27,26 @@ Through this project, I gained hands-on experience in:
 ## Screenshots
 
 <!-- Replace these with your screenshots -->
-![Dashboard](UI/Screenshot 2025-09-13 130154.png)
-![Customer Management](screenshots/customers.png)
-![Car Management](screenshots/cars.png)
-![Issue & Return Car](screenshots/issue_return.png)
+<!-- Row 1: Login and Sign Up side by side -->
+<p float="left">
+  <img src="screenshots/login.png" alt="Login" width="500" />
+  <img src="screenshots/SignUp.png" alt="Sign Up" width="500" />
+</p>
+
+<!-- Row 2: Dashboard -->
+<img src="screenshots/dashboard.png" alt="Dashboard" width="1100" />
+
+<!-- Row 3: Customer Management -->
+<img src="screenshots/customers.png" alt="Customer Management" width="1100" />
+
+<!-- Row 4: Car Management -->
+<img src="screenshots/cars.png" alt="Car Management" width="1100" />
+
+<!-- Row 5: Issue Car -->
+<img src="screenshots/issuecars.png" alt="Issue Car" width="1100" />
+
+<!-- Row 6: Return Car -->
+<img src="screenshots/returncars.png" alt="Return Car" width="1100" />
 
 ---
 
