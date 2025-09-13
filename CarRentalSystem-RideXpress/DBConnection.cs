@@ -10,6 +10,6 @@ namespace CarRentalSystem_RideXpress
     {
         public static readonly string ConnectionString =
            //@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\RideXpressDB.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=false";
-            "Data Source=GAMIKA\\SQLEXPRESS;Initial Catalog=RideXpress;Integrated Security = True"; 
+            "Data Source=localhost\\SQLEXPRESS;Initial Catalog=RideXpress;Integrated Security = True"; 
     }
 }
