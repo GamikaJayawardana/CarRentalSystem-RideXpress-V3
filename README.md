@@ -29,8 +29,8 @@ Through this project, I gained hands-on experience in:
 <!-- Replace these with your screenshots -->
 <!-- Row 1: Login and Sign Up side by side -->
 <p float="left">
-  <img src="screenshots/login.png" alt="Login" width="48%" />
-  <img src="screenshots/SignUp.png" alt="Sign Up" width="48%" />
+  <img src="screenshots/login.png" alt="Login" width="49%" />
+  <img src="screenshots/SignUp.png" alt="Sign Up" width="49%" />
 </p>
 
 <!-- Row 2: Dashboard -->
